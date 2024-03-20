@@ -134,9 +134,3 @@ lt(90) '''
 # lt(10)
 # fd(10)
 # end_fill()'''
-
-pencolor()  # Used to change the color of the pen used while drawing
-begin_fill()  # Used to inform the robot to start filling the color ; Without end_fill() the begin_fill() will not work
-end_fill()  # Used to inform the robot to stop filling the color ; Without begin_fill() the end_fill() will not work
-pensize()  # Used to inform the robot to that what kind of pencil should be used
-bgcolor()  # Used to set the background of the turtle window
