@@ -103,10 +103,17 @@ fillcolor('white')
 begin_fill()
 circle(40)
 end_fill()
+penup()
+circle(10,20)
+pendown()
+lt(102)
+# # CODE FOR CREATING THE STAR
+for i in range(5):
+	fd(75)
+	rt(144)
 
-
-hideturtle()
-t.hideturtle()
+# hideturtle()
+# t.hideturtle()
 turtle.done()
 
 
@@ -137,3 +144,5 @@ lt(90) '''
 # lt(10)
 # fd(10)
 # end_fill()'''
+
+
