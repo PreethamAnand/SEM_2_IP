@@ -109,7 +109,6 @@ lt(14)
 fd(163)
 pendown()
 lt(115)
-# fd(40)
 # INSIDE CIRCLE
 penup()
 lt(85)
@@ -163,7 +162,6 @@ lt(200)
 fd(200)
 rt(40)
 fd(150)
-
 # NAME
 color("red")
 x = ('Arial Rounded MT Bold', 20, 'bold')
@@ -174,6 +172,6 @@ fd(30)
 pendown()
 write('                  AND SCIENCE', font=x)
 
-# hideturtle()
+hideturtle()
 t.hideturtle()
 turtle.done()
