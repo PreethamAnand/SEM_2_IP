@@ -123,18 +123,27 @@
 
 # write a code for adding of two numbers
 
-import tkinter as tk
+# import tkinter as tk
 
-def button_click():
-    print("Button clicked!")
+# def button_click():
+#     print("Button clicked!")
 
-# Create the main window
-root = tk.Tk()
-root.title("Button Example")
+# # Create the main window
+# root = tk.Tk()
+# root.title("Button Example")
 
-# Create a button
-button = tk.Button(root, text="Click Me!", command=button_click)
-button.pack(pady=203*10)  # Add padding around the button
+# # Create a button
+# button = tk.Button(root, text="Click Me!", command=button_click)
+# button.pack(pady=203*10)  # Add padding around the button
 
-# Run the main event loop
-root.mainloop()
+                    # # Run the main event loop
+# root.mainloop()
+
+import matplotlib.pyplot as plt
+X = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+Y = [22.9,21.8,19.5,18.1,16.2,14.5,13.3,11.8,10.7,9.6,8.6,7.5,6.5,5.6,4.9,4.1,3.9,3.9,4.2,4.5,4.7,5.0,5.3,5.6,5.8,6.0,6.3,6.5,6.7,6.9,7.1]
+for i in range(30):
+    plt.scatter(X[i], Y[i])
+plt.show()
+
+
