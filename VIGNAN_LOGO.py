@@ -71,7 +71,7 @@ pendown()
 rt(18)
 fd(100)
 lt(80)
-fillcolor("#7a60a1") # curve color
+fillcolor("#7a60a1")  # curve color
 begin_fill()
 for i in range(4):
     lt(11)
@@ -92,7 +92,7 @@ for i in range(4):
     rt(93)
     fd(100)
     lt(80)
-    fillcolor("#7a60a1") # curve color
+    fillcolor("#7a60a1")  # curve color
     begin_fill()
     for i in range(4):
         lt(11)
@@ -134,7 +134,7 @@ lt(30)
 fd(17)
 pendown()
 # INSIDE STAR COLOR
-fillcolor("#0198f1") 
+fillcolor("#0198f1")
 begin_fill()
 lt(98)
 fd(15)
